@@ -50,6 +50,7 @@ int main(int argc, char** argv) {
     if (argc > 1) vuln_function(argv[1]);
     return 0;
 }
+
 02_format_string.cpp
 C++
 #include <stdio.h>
@@ -61,6 +62,7 @@ int main(int argc, char** argv) {
     }
     return 0;
 }
+
 03_integer_overflow.cpp
 C++
 #include <iostream>
@@ -76,6 +78,7 @@ int main() {
     check_access(65535);
     return 0;
 }
+
 🔍 Guia de Compilação para Testes
 Para estudar essas falhas sem as proteções modernas do compilador (GCC), use:
 
