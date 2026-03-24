@@ -89,9 +89,7 @@ Desenvolvido por Deep Audit - Pesquisa em Segurança Ofensiva.
 ----------------------------------------------------------------------------------
 1. Stack-Based Buffer Overflow
 O que é: Ocorre quando um programa escreve mais dados em um buffer (array) na pilha (stack) do que ele pode suportar.
-
 A Causa Raiz: O uso de funções inseguras da biblioteca C, como strcpy, gets ou scanf, que não verificam o tamanho do destino.
-
 O Impacto: O atacante sobrescreve o Endereço de Retorno (EIP/RIP) da função. Quando a função termina, em vez de voltar para o fluxo normal, o processador pula para um endereço controlado pelo atacante (onde pode haver um shellcode).
 No seu código: O buffer[16] recebe qualquer tamanho de string via argv[1], permitindo o transbordamento.
 
