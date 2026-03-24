@@ -29,7 +29,7 @@ Quando uma operação aritmética excede o valor máximo de um tipo inteiro, cau
 ### 4. Use-After-Free (UAF)
 Tentar acessar um ponteiro após a memória ter sido liberada, o que pode levar ao sequestro do fluxo do programa.
 * **Arquivo:** `04_use_after_free.cpp`
-*![Use After Free](https://cwe.mitre.org/data/images/cwe_416_uaf.png)
+https://cwe.mitre.org/data/images/cwe_416_uaf.png
 ---
 
 ## 🛠️ Códigos de Exemplo (PoCs)
