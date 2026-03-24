@@ -29,7 +29,12 @@ Quando uma operação aritmética excede o valor máximo de um tipo inteiro, cau
 ### 4. Use-After-Free (UAF)
 Tentar acessar um ponteiro após a memória ter sido liberada, o que pode levar ao sequestro do fluxo do programa.
 * **Arquivo:** `04_use_after_free.cpp`
-
+*![Format String](https://owasp.org/www-community/attacks/Format_string_attack_diagram.png)
+* ![Memory Layout](https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Program_memory_layout.pdf/page1-1200px-Program_memory_layout.pdf.jpg)
+*![Use After Free](https://cwe.mitre.org/data/images/cwe_416_uaf.png)
+*![Format String](https://owasp.org/www-community/attacks/Format_string_attack_diagram.png)
+*![Heap Overflow](https://blog.qualys.com/wp-content/uploads/2021/01/heap-overflow.png)
+*![Heap Overflow](https://blog.qualys.com/wp-content/uploads/2021/01/heap-overflow.png)
 ---
 
 ## 🛠️ Códigos de Exemplo (PoCs)
