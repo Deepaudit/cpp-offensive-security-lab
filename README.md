@@ -52,7 +52,7 @@ int main(int argc, char** argv) {
 }
 
 02_format_string.cpp
-C++
+
 #include <stdio.h>
 
 int main(int argc, char** argv) {
@@ -64,7 +64,7 @@ int main(int argc, char** argv) {
 }
 
 03_integer_overflow.cpp
-C++
+
 #include <iostream>
 
 void check_access(unsigned short items) {
